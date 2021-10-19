@@ -1,0 +1,19 @@
+{
+  "name": "joinout",
+  "version": "1.0.0",
+  "description": "Статистика операторов на линии",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon -e js --inspect src/bot.js",
+    "prod": "node src/bot.js"
+  },
+  "author": "Chrysy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.6",
+    "telegraf": "^4.4.2"
+  }
+}
